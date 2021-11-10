@@ -1,24 +1,20 @@
 # KTOptionMenu
 
 [![Version](https://img.shields.io/cocoapods/v/KTOptionMenu.svg?style=flat)](https://cocoapods.org/pods/KTOptionMenu)
-[![License](https://img.shields.io/cocoapods/l/KTOptionMenu.svg?style=flat)](https://cocoapods.org/pods/KTOptionMenu)
+[![License](https://img.shields.io/cocoapods/l/OptionMenu.svg?style=flat)](/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/KTOptionMenu.svg?style=flat)](https://cocoapods.org/pods/KTOptionMenu)
 
 ## Description
 
 KTOptionMenu is a swift library based on the various options menu in material design in Android that allows you to easily create a user-friendly and attractive option menu. KTOptionMenu is a popover style menu that can be employed easily in any UIViewController with every added action corresponding to a button. All actions are easily handled with a completion handler.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Preview
 
 <img src="https://user-images.githubusercontent.com/93727769/141182672-a58426a9-b8f9-4dcf-a13b-14678d971d96.gif" alt="Preview" width=300>
 
-## Requirements
+## Example
 
-
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
