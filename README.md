@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Preview
 
-
+![KTOptionMenu](https://user-images.githubusercontent.com/93727769/141182672-a58426a9-b8f9-4dcf-a13b-14678d971d96.gif)
 
 ## Requirements
 
