@@ -1,0 +1,16 @@
+PODS:
+  - KTOptionMenu (0.1.0)
+
+DEPENDENCIES:
+  - KTOptionMenu (from `../`)
+
+EXTERNAL SOURCES:
+  KTOptionMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KTOptionMenu: 4cbfd16b8bb945ff01dbe834435dd21526e15d96
+
+PODFILE CHECKSUM: 076c22d6d367b93d8f02a9772b3d93555c23efd1
+
+COCOAPODS: 1.10.1

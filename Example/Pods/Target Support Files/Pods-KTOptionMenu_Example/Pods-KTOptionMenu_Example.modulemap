@@ -1,0 +1,6 @@
+framework module Pods_KTOptionMenu_Example {
+  umbrella header "Pods-KTOptionMenu_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

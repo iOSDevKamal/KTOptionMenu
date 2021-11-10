@@ -1,0 +1,6 @@
+framework module KTOptionMenu {
+  umbrella header "KTOptionMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

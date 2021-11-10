@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B35527B3901FE8A337B80E596A4DA9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0B85792F2444AE6FC3859A7115B7DFB9 /* Pods-KTOptionMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 618154F3292A09CE711F94E6EB2CB92B /* Pods-KTOptionMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		192AF479097D989D6C67A6FF3D53367B /* Pods-KTOptionMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F24AAE3387E28E3AAFAAF6EE92A6E /* Pods-KTOptionMenu_Tests-dummy.m */; };
+		1F4762830E270D084B23F1B6C1197934 /* Pods-KTOptionMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80329B06EC498E8C30573F0DDF7B78F7 /* Pods-KTOptionMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B28245C574EDEADA4687085B8C8316 /* KTOptionMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E42737ADF903B9B41FE41FF3CD1FED3 /* KTOptionMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFCA484EB4EA55E547389682A179FF6 /* KTOptionMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB92783EE3B6619B42C3C713C6577 /* KTOptionMenu-dummy.m */; };
+		5F15AC2CCC704AA4990D702A18B1960A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77DA66178FCC6DB003939EDCF1F8F7FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		88AB3F7440623F8310DC947B59DD4B0F /* KTOptionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4ED098E795E53B124DEC743964C804 /* KTOptionMenu.swift */; };
+		A9520A4014D99AE5C3E9FA2EB4F27D7E /* Pods-KTOptionMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E5E9563239B73D61CD87B76F9A8A3 /* Pods-KTOptionMenu_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D61FFE1F6A72F2FD36143B203BAE03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B635DDB6D72D8A78415F57BB095AF7A;
+			remoteInfo = KTOptionMenu;
+		};
+		BED6E18403489AE06358E34B46BA4EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E94A7C735CA6A44FC0FF0E57F24F792;
+			remoteInfo = "Pods-KTOptionMenu_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F57E0CD3F64ED358866DBCF1043D3A /* Pods_KTOptionMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTOptionMenu_Tests.framework; path = "Pods-KTOptionMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		021B13606DB5F89158D372C655E89455 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		058E5E9563239B73D61CD87B76F9A8A3 /* Pods-KTOptionMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTOptionMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		0E251E1CF40D266E22CD689C363FB482 /* Pods-KTOptionMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTOptionMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E42737ADF903B9B41FE41FF3CD1FED3 /* KTOptionMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTOptionMenu-umbrella.h"; sourceTree = "<group>"; };
+		0FBCB6D058232E45B848E9AA31E87D8C /* Pods-KTOptionMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTOptionMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24EE4A1EFE8EE76F27A434AB8A620B0D /* Pods-KTOptionMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KTOptionMenu_Example.modulemap"; sourceTree = "<group>"; };
+		24F362ABD8D7755DF47DA133E959C304 /* KTOptionMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KTOptionMenu-Info.plist"; sourceTree = "<group>"; };
+		2F4ED098E795E53B124DEC743964C804 /* KTOptionMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTOptionMenu.swift; path = Source/KTOptionMenu.swift; sourceTree = "<group>"; };
+		316AD7AC765D5632C39286385B8EAFA4 /* Pods-KTOptionMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTOptionMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		34DAB92783EE3B6619B42C3C713C6577 /* KTOptionMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTOptionMenu-dummy.m"; sourceTree = "<group>"; };
+		4FE75E99D5D359D5FF6CD0C70873B207 /* KTOptionMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KTOptionMenu.framework; path = KTOptionMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52326F50E33735C152F210C18B132973 /* KTOptionMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KTOptionMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5454C3973A8AE10CAAB90A1E7F01813E /* KTOptionMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTOptionMenu-prefix.pch"; sourceTree = "<group>"; };
+		5B4482042A365620652A4424400C6428 /* Pods-KTOptionMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTOptionMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5FD2F0B15DB5DAE3C53D976FF4B535EB /* KTOptionMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTOptionMenu.release.xcconfig; sourceTree = "<group>"; };
+		618154F3292A09CE711F94E6EB2CB92B /* Pods-KTOptionMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTOptionMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		64DED27EE25170E0E52B86D51DD9ED4C /* Pods-KTOptionMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTOptionMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DC1B82723532C9EFDE239CBFCB85396 /* Pods-KTOptionMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTOptionMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BC6FFF7FC748A5EB6979EE0F5710AF2 /* Pods-KTOptionMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTOptionMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80329B06EC498E8C30573F0DDF7B78F7 /* Pods-KTOptionMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTOptionMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		86BA91BF6BFE434EDCC8D80B2683DC6A /* KTOptionMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTOptionMenu.debug.xcconfig; sourceTree = "<group>"; };
+		87D9D9891C584E6DB3E9AD7DF07234A3 /* Pods-KTOptionMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTOptionMenu_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACE99C978E3320A101BEC12A693471E2 /* Pods-KTOptionMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTOptionMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B096A65605635BC10F7C8025470F2B66 /* Pods-KTOptionMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTOptionMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		C49C6033B63CAD823346A12ECC9B4DA9 /* Pods_KTOptionMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTOptionMenu_Example.framework; path = "Pods-KTOptionMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3F24AAE3387E28E3AAFAAF6EE92A6E /* Pods-KTOptionMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTOptionMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD2450C099065A0DB7746AED045AD6AF /* KTOptionMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KTOptionMenu.modulemap; sourceTree = "<group>"; };
+		DD9820F24CC66686A72F1416EECBC73A /* Pods-KTOptionMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTOptionMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E960E1B77B010FB19A369B115931B842 /* Pods-KTOptionMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KTOptionMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		F9DB7724240C11DD2CD73A8B51283FA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D4ECB11372EB2D651D491CF15AB3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DA66178FCC6DB003939EDCF1F8F7FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4211E14F056777DC3A2720DEE98D7D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F15AC2CCC704AA4990D702A18B1960A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ED45234F80FC2F830AAA5164BDE5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B35527B3901FE8A337B80E596A4DA9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018040C57CFB40FB93B8E64C3FA5911F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52326F50E33735C152F210C18B132973 /* KTOptionMenu.podspec */,
+				021B13606DB5F89158D372C655E89455 /* LICENSE */,
+				F9DB7724240C11DD2CD73A8B51283FA0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63D64894A63200328E2FD88741E1ED89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE75E99D5D359D5FF6CD0C70873B207 /* KTOptionMenu.framework */,
+				C49C6033B63CAD823346A12ECC9B4DA9 /* Pods_KTOptionMenu_Example.framework */,
+				00F57E0CD3F64ED358866DBCF1043D3A /* Pods_KTOptionMenu_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C90FC5BEA1EB3DA19FFE0C2A1845D3E /* Pods-KTOptionMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				24EE4A1EFE8EE76F27A434AB8A620B0D /* Pods-KTOptionMenu_Example.modulemap */,
+				0FBCB6D058232E45B848E9AA31E87D8C /* Pods-KTOptionMenu_Example-acknowledgements.markdown */,
+				6DC1B82723532C9EFDE239CBFCB85396 /* Pods-KTOptionMenu_Example-acknowledgements.plist */,
+				058E5E9563239B73D61CD87B76F9A8A3 /* Pods-KTOptionMenu_Example-dummy.m */,
+				5B4482042A365620652A4424400C6428 /* Pods-KTOptionMenu_Example-frameworks.sh */,
+				87D9D9891C584E6DB3E9AD7DF07234A3 /* Pods-KTOptionMenu_Example-Info.plist */,
+				618154F3292A09CE711F94E6EB2CB92B /* Pods-KTOptionMenu_Example-umbrella.h */,
+				ACE99C978E3320A101BEC12A693471E2 /* Pods-KTOptionMenu_Example.debug.xcconfig */,
+				7BC6FFF7FC748A5EB6979EE0F5710AF2 /* Pods-KTOptionMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-KTOptionMenu_Example";
+			path = "Target Support Files/Pods-KTOptionMenu_Example";
+			sourceTree = "<group>";
+		};
+		75FC16C1EE5E75E4D0C9DFBE769E6FE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD2450C099065A0DB7746AED045AD6AF /* KTOptionMenu.modulemap */,
+				34DAB92783EE3B6619B42C3C713C6577 /* KTOptionMenu-dummy.m */,
+				24F362ABD8D7755DF47DA133E959C304 /* KTOptionMenu-Info.plist */,
+				5454C3973A8AE10CAAB90A1E7F01813E /* KTOptionMenu-prefix.pch */,
+				0E42737ADF903B9B41FE41FF3CD1FED3 /* KTOptionMenu-umbrella.h */,
+				86BA91BF6BFE434EDCC8D80B2683DC6A /* KTOptionMenu.debug.xcconfig */,
+				5FD2F0B15DB5DAE3C53D976FF4B535EB /* KTOptionMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KTOptionMenu";
+			sourceTree = "<group>";
+		};
+		835DB77EE47AA0B1051654D141082473 /* KTOptionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2F4ED098E795E53B124DEC743964C804 /* KTOptionMenu.swift */,
+				018040C57CFB40FB93B8E64C3FA5911F /* Pod */,
+				75FC16C1EE5E75E4D0C9DFBE769E6FE1 /* Support Files */,
+			);
+			name = KTOptionMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BD9AC072172A1173ECD9D2C01F33312B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C90FC5BEA1EB3DA19FFE0C2A1845D3E /* Pods-KTOptionMenu_Example */,
+				E1710D8401787BB244E420B15E2790A7 /* Pods-KTOptionMenu_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D1CDFB10C4E6AFFED8A7DF3BB73521F0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				63D64894A63200328E2FD88741E1ED89 /* Products */,
+				BD9AC072172A1173ECD9D2C01F33312B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1CDFB10C4E6AFFED8A7DF3BB73521F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				835DB77EE47AA0B1051654D141082473 /* KTOptionMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1710D8401787BB244E420B15E2790A7 /* Pods-KTOptionMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E960E1B77B010FB19A369B115931B842 /* Pods-KTOptionMenu_Tests.modulemap */,
+				DD9820F24CC66686A72F1416EECBC73A /* Pods-KTOptionMenu_Tests-acknowledgements.markdown */,
+				316AD7AC765D5632C39286385B8EAFA4 /* Pods-KTOptionMenu_Tests-acknowledgements.plist */,
+				CC3F24AAE3387E28E3AAFAAF6EE92A6E /* Pods-KTOptionMenu_Tests-dummy.m */,
+				B096A65605635BC10F7C8025470F2B66 /* Pods-KTOptionMenu_Tests-Info.plist */,
+				80329B06EC498E8C30573F0DDF7B78F7 /* Pods-KTOptionMenu_Tests-umbrella.h */,
+				0E251E1CF40D266E22CD689C363FB482 /* Pods-KTOptionMenu_Tests.debug.xcconfig */,
+				64DED27EE25170E0E52B86D51DD9ED4C /* Pods-KTOptionMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-KTOptionMenu_Tests";
+			path = "Target Support Files/Pods-KTOptionMenu_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1082A1A82E39135DC5971521D1E98C14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4762830E270D084B23F1B6C1197934 /* Pods-KTOptionMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D14C12E6E2F4AAEE0B723B00E2CB61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B85792F2444AE6FC3859A7115B7DFB9 /* Pods-KTOptionMenu_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57662359129E7D6BAD02185E4D7E565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B28245C574EDEADA4687085B8C8316 /* KTOptionMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B635DDB6D72D8A78415F57BB095AF7A /* KTOptionMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CA2255D464C4149D49424A700CA345 /* Build configuration list for PBXNativeTarget "KTOptionMenu" */;
+			buildPhases = (
+				A57662359129E7D6BAD02185E4D7E565 /* Headers */,
+				41A61FEB4FE32C1CAA34C1AD4B75D3FB /* Sources */,
+				85ED45234F80FC2F830AAA5164BDE5E3 /* Frameworks */,
+				104E1E68B2C14041C82AABA7E84F414C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTOptionMenu;
+			productName = KTOptionMenu;
+			productReference = 4FE75E99D5D359D5FF6CD0C70873B207 /* KTOptionMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E94A7C735CA6A44FC0FF0E57F24F792 /* Pods-KTOptionMenu_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9ADA28121052DB37626C907C9A0869 /* Build configuration list for PBXNativeTarget "Pods-KTOptionMenu_Example" */;
+			buildPhases = (
+				A1D14C12E6E2F4AAEE0B723B00E2CB61 /* Headers */,
+				13C01B2BC150A66D2B1781B4B78838B9 /* Sources */,
+				4211E14F056777DC3A2720DEE98D7D00 /* Frameworks */,
+				CFDC16F22FC8D6DEF50D01E9AECB5959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574A1455D544DF9781F1678076889581 /* PBXTargetDependency */,
+			);
+			name = "Pods-KTOptionMenu_Example";
+			productName = "Pods-KTOptionMenu_Example";
+			productReference = C49C6033B63CAD823346A12ECC9B4DA9 /* Pods_KTOptionMenu_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCA5613F39372BD9226264F37161458E /* Pods-KTOptionMenu_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1857264690CCCB22BF3F5393E27F6F02 /* Build configuration list for PBXNativeTarget "Pods-KTOptionMenu_Tests" */;
+			buildPhases = (
+				1082A1A82E39135DC5971521D1E98C14 /* Headers */,
+				62DE4E59AE624B71916F2C9F0C3BA3B4 /* Sources */,
+				30D4ECB11372EB2D651D491CF15AB3EA /* Frameworks */,
+				33397DAA29C9AB89205064D5B4D36108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5653D0CBB97661C1378482433C84C069 /* PBXTargetDependency */,
+			);
+			name = "Pods-KTOptionMenu_Tests";
+			productName = "Pods-KTOptionMenu_Tests";
+			productReference = 00F57E0CD3F64ED358866DBCF1043D3A /* Pods_KTOptionMenu_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 63D64894A63200328E2FD88741E1ED89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B635DDB6D72D8A78415F57BB095AF7A /* KTOptionMenu */,
+				8E94A7C735CA6A44FC0FF0E57F24F792 /* Pods-KTOptionMenu_Example */,
+				CCA5613F39372BD9226264F37161458E /* Pods-KTOptionMenu_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		104E1E68B2C14041C82AABA7E84F414C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33397DAA29C9AB89205064D5B4D36108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDC16F22FC8D6DEF50D01E9AECB5959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C01B2BC150A66D2B1781B4B78838B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9520A4014D99AE5C3E9FA2EB4F27D7E /* Pods-KTOptionMenu_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A61FEB4FE32C1CAA34C1AD4B75D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFCA484EB4EA55E547389682A179FF6 /* KTOptionMenu-dummy.m in Sources */,
+				88AB3F7440623F8310DC947B59DD4B0F /* KTOptionMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DE4E59AE624B71916F2C9F0C3BA3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192AF479097D989D6C67A6FF3D53367B /* Pods-KTOptionMenu_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5653D0CBB97661C1378482433C84C069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KTOptionMenu_Example";
+			target = 8E94A7C735CA6A44FC0FF0E57F24F792 /* Pods-KTOptionMenu_Example */;
+			targetProxy = BED6E18403489AE06358E34B46BA4EF9 /* PBXContainerItemProxy */;
+		};
+		574A1455D544DF9781F1678076889581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTOptionMenu;
+			target = 3B635DDB6D72D8A78415F57BB095AF7A /* KTOptionMenu */;
+			targetProxy = 0D61FFE1F6A72F2FD36143B203BAE03A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1524A73A85B8CBAFA4048EEE61948E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD2F0B15DB5DAE3C53D976FF4B535EB /* KTOptionMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KTOptionMenu/KTOptionMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KTOptionMenu/KTOptionMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KTOptionMenu/KTOptionMenu.modulemap";
+				PRODUCT_MODULE_NAME = KTOptionMenu;
+				PRODUCT_NAME = KTOptionMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E5B236769396F15275FDED930FB3CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC6FFF7FC748A5EB6979EE0F5710AF2 /* Pods-KTOptionMenu_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KTOptionMenu_Example/Pods-KTOptionMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KTOptionMenu_Example/Pods-KTOptionMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A221B21B2E9E472082DEC1D5B6521E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BA91BF6BFE434EDCC8D80B2683DC6A /* KTOptionMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KTOptionMenu/KTOptionMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KTOptionMenu/KTOptionMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KTOptionMenu/KTOptionMenu.modulemap";
+				PRODUCT_MODULE_NAME = KTOptionMenu;
+				PRODUCT_NAME = KTOptionMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A594BB707667BF3262F9DBAAFA17F39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E251E1CF40D266E22CD689C363FB482 /* Pods-KTOptionMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KTOptionMenu_Tests/Pods-KTOptionMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KTOptionMenu_Tests/Pods-KTOptionMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE88C3D258B6AC558B406AD78F054E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE99C978E3320A101BEC12A693471E2 /* Pods-KTOptionMenu_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KTOptionMenu_Example/Pods-KTOptionMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KTOptionMenu_Example/Pods-KTOptionMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9DDCA9B32B2D041A28994CB8774DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DED27EE25170E0E52B86D51DD9ED4C /* Pods-KTOptionMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KTOptionMenu_Tests/Pods-KTOptionMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KTOptionMenu_Tests/Pods-KTOptionMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1857264690CCCB22BF3F5393E27F6F02 /* Build configuration list for PBXNativeTarget "Pods-KTOptionMenu_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A594BB707667BF3262F9DBAAFA17F39E /* Debug */,
+				F9DDCA9B32B2D041A28994CB8774DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9ADA28121052DB37626C907C9A0869 /* Build configuration list for PBXNativeTarget "Pods-KTOptionMenu_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE88C3D258B6AC558B406AD78F054E41 /* Debug */,
+				2E5B236769396F15275FDED930FB3CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CA2255D464C4149D49424A700CA345 /* Build configuration list for PBXNativeTarget "KTOptionMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221B21B2E9E472082DEC1D5B6521E50 /* Debug */,
+				1524A73A85B8CBAFA4048EEE61948E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

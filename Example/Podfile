@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KTOptionMenu_Example' do
+  pod 'KTOptionMenu', :path => '../'
+
+  target 'KTOptionMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
