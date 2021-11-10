@@ -1,6 +1,5 @@
 # KTOptionMenu
 
-[![CI Status](https://img.shields.io/travis/iOSDevKamal/KTOptionMenu.svg?style=flat)](https://travis-ci.org/iOSDevKamal/KTOptionMenu)
 [![Version](https://img.shields.io/cocoapods/v/KTOptionMenu.svg?style=flat)](https://cocoapods.org/pods/KTOptionMenu)
 [![License](https://img.shields.io/cocoapods/l/KTOptionMenu.svg?style=flat)](https://cocoapods.org/pods/KTOptionMenu)
 [![Platform](https://img.shields.io/cocoapods/p/KTOptionMenu.svg?style=flat)](https://cocoapods.org/pods/KTOptionMenu)
@@ -9,7 +8,13 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Preview
+
+
+
 ## Requirements
+
+
 
 ## Installation
 
