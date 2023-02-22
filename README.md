@@ -72,7 +72,7 @@ class ViewController: UIViewController {
 
 ## Author
 
-iOSDevKamal, kamaltrapasiya@gmail.com
+iOSDevKamal
 
 ## License
 
